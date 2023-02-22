@@ -1,5 +1,3 @@
-ssh-keygen
-
 pipeline {
     agent any
     
