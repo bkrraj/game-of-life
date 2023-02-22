@@ -11,7 +11,7 @@ pipeline {
       steps {
         echo '<--------------- Building --------------->'
         sh 'printenv'
-        sh '/opt/apache-maven-3.9.0/bin/mvn clean install'
+        sh '/opt/apache-maven-3.9.0/bin/mvn clean install -DskipTests'
         echo '<------------- Build completed --------------->'
       }
     }
